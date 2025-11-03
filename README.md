@@ -1,5 +1,6 @@
 # Week-1
-# Smart Waste Classification – Week 1
+🔹 Theme: “Smart Waste Classification for Sustainable Cities”
+🔹 Goal: Build an image-based AI system that classifies waste into categories such as plastic, glass, paper, etc. The first step toward an automated waste-sorting solution.
 
 Objective
 
