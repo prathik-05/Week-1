@@ -1,20 +1,47 @@
-# Week-1
-🔹 Theme: “Smart Waste Classification for Sustainable Cities”
+Week-1
+♻️ Smart Waste Classification – Week 1  
 🔹 Goal: Build an image-based AI system that classifies waste into categories such as plastic, glass, paper, etc. The first step toward an automated waste-sorting solution.
+ AI for Sustainability Internship
+ 
+🌍 Overview
+This week focuses on understanding and preprocessing the **Waste Classification Dataset**, which helps identify whether waste is **Organic** or **Recyclable**.  
+Proper classification supports recycling efficiency, reduces landfill waste, and promotes sustainable waste management practices.
 
-Objective
+📊 Dataset Details
+- Source: [Kaggle – Waste Classification Data](https://www.kaggle.com/datasets/techsash/waste-classification-data)
+- Total Images: 22,564 (Train + Validation)
+- Classes: 2 (Organic, Recyclable)
+- Image Types: RGB (various sizes)
+- Task: Image classification for sustainability
 
-Import, preprocess, and visualize the Waste Classification Data (Kaggle) as part of the AICTE × Shell Edunet Sustainability Internship.
+⚙️ Preprocessing Performed
+| Step | Description |
+|------|--------------|
+| 🧹 Dataset Extraction | Extracted from Kaggle using `kaggle.json` |
+| 📂 Folder Structure | Verified and organized into `TRAIN` and `TEST` folders |
+| 🔄 Normalization | Pixel values scaled to [0, 1] using `ImageDataGenerator(rescale=1./255)` |
+| 🎞️ Data Augmentation | Rotation, zoom, and flips to improve model generalization (next week) |
+| 📊 Visualization | Displayed sample images and dataset distribution per class |
 
-Data Set
+ 📸 Sample Outputs
+- Bar chart showing image distribution across classes  
+- Sample images from each category (Organic vs Recyclable)  
+- Confirmation of 18,052 training + 4,512 validation images  
 
-[Waste Classification Data (Kaggle)](https://www.kaggle.com/datasets/techsash/waste-classification-data)
-Classes: Cardboard | Glass | Metal | Paper | Plastic | Trash
-Tasks Completed
-- Imported dataset
+✅ Result: 
 
-- Resized and normalized images
+🌱 Sustainability Impact
+- Encourages **responsible waste sorting** using AI  
+- Reduces **contamination in recycling bins**  
+- Promotes **efficient recycling** and **resource conservation**  
+- Supports **UN SDG 12: Responsible Consumption & Production**
 
-- Created training-validation split (80 / 20)
-- Visualised sample images and class distribution
-Reference Notebook Image Classification using CNN – 94% Accuracy by Abraar Khan https://www.kaggle.com/code/arbazkhan971/image-classification-using-cnn-94-accuracy ## Author **Salla Prathik Reddy** AICTE Internship ID: INTERNSHIP_175683301568b724f7b9fba
+📅 Next Steps (Week 2 Preview)
+- Build a CNN model using TensorFlow/Keras  
+- Train on preprocessed data  
+- Evaluate model accuracy and save results  
+
+👨‍💻 Author
+**S Prathik Reddy**  
+AI for Sustainability Intern | Edunet Foundation x AICTE  
+GitHub Profile: [@prathik-05](https://github.com/prathik-05)
